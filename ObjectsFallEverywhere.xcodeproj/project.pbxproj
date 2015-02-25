@@ -12,6 +12,9 @@
 		90A64125194D654200BDAD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A64123194D654200BDAD8A /* Main.storyboard */; };
 		90A64127194D654200BDAD8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A64126194D654200BDAD8A /* Images.xcassets */; };
 		90A64133194D654200BDAD8A /* ObjectsFallEverywhereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A64132194D654200BDAD8A /* ObjectsFallEverywhereTests.swift */; };
+		90A6413F194D928300BDAD8A /* DropitBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6413E194D928300BDAD8A /* DropitBehavior.swift */; };
+		90A64141194E1F7E00BDAD8A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90A64140194E1F7E00BDAD8A /* CoreMotion.framework */; };
+		90A64143194E959900BDAD8A /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A64142194E959900BDAD8A /* testView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		90A6412C194D654200BDAD8A /* ObjectsFallEverywhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectsFallEverywhereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A64131194D654200BDAD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90A64132194D654200BDAD8A /* ObjectsFallEverywhereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsFallEverywhereTests.swift; sourceTree = "<group>"; };
+		90A6413E194D928300BDAD8A /* DropitBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropitBehavior.swift; path = ../DropitBehavior.swift; sourceTree = "<group>"; };
+		90A64140194E1F7E00BDAD8A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		90A64142194E959900BDAD8A /* testView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A64141194E1F7E00BDAD8A /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +64,7 @@
 		90A64111194D654200BDAD8A = {
 			isa = PBXGroup;
 			children = (
+				90A64140194E1F7E00BDAD8A /* CoreMotion.framework */,
 				90A6411C194D654200BDAD8A /* ObjectsFallEverywhere */,
 				90A6412F194D654200BDAD8A /* ObjectsFallEverywhereTests */,
 				90A6411B194D654200BDAD8A /* Products */,
@@ -75,8 +83,9 @@
 		90A6411C194D654200BDAD8A /* ObjectsFallEverywhere */ = {
 			isa = PBXGroup;
 			children = (
-				90A6411F194D654200BDAD8A /* AppDelegate.swift */,
+				90A6413E194D928300BDAD8A /* DropitBehavior.swift */,
 				90A64121194D654200BDAD8A /* ViewController.swift */,
+				90A64142194E959900BDAD8A /* testView.swift */,
 				90A64123194D654200BDAD8A /* Main.storyboard */,
 				90A64126194D654200BDAD8A /* Images.xcassets */,
 				90A6411D194D654200BDAD8A /* Supporting Files */,
@@ -87,6 +96,7 @@
 		90A6411D194D654200BDAD8A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				90A6411F194D654200BDAD8A /* AppDelegate.swift */,
 				90A6411E194D654200BDAD8A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -208,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A64143194E959900BDAD8A /* testView.swift in Sources */,
 				90A64122194D654200BDAD8A /* ViewController.swift in Sources */,
 				90A64120194D654200BDAD8A /* AppDelegate.swift in Sources */,
+				90A6413F194D928300BDAD8A /* DropitBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
